@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #509b929f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.signup-container {
+    background: #281c1c52;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.signup-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-field {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-field:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.submit-button, .signup-button {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.submit-button {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.signup-button {
+    background-color: #5a6268;
+    color: #fff;
+}
+
+.signup-button:hover {
+    background-color: #000000;
+}
+.show-button {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    
+}
+.show-button:hover {
+    color: whitesmoke;
+    background-color: #000000;
+}
+h1 {
+    color: whitesmoke;
+}
